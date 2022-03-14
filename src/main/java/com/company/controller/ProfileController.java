@@ -31,6 +31,11 @@ public class ProfileController {
         return ResponseEntity.ok(response);
     }
 
+    public ResponseEntity<?> registration(@RequestBody ProfileJwtDTO jwtDTO){
+
+        return null;
+    }
+
     // registration
     // authorization
 
